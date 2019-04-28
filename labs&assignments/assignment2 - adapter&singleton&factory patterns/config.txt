@@ -1,0 +1,3 @@
+Button, button1text, 20, 50
+Button, button2text, 20, 85
+TextField, textField1text, 100, 64
