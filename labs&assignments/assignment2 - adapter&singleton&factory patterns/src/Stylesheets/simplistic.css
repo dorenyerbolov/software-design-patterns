@@ -8,6 +8,10 @@
     -fx-text-fill: linear-gradient(white, #d0d0d0);
 }
 
+.button:hover {
+    -fx-background-color: grey;
+}
+
 .text-field {
    -fx-font-family: "Quicksand";
    -fx-font-size: 18;

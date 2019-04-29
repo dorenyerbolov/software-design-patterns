@@ -1,24 +1,24 @@
-package Managers;
+package WM;
 
-public class Node {
-    private String nodeName;
+public class Element {
+    private String name;
     private String innerText;
     private String xPos;
     private String yPos;
 
-    public Node(String nodeName, String innerText, String xPos, String yPos) {
-        this.nodeName = nodeName;
+    public Element(String name, String innerText, String xPos, String yPos) {
+        this.name = name;
         this.innerText = innerText;
         this.xPos = xPos;
         this.yPos = yPos;
     }
 
-    public String getNodeName() {
-        return nodeName;
+    public String getName() {
+        return name;
     }
 
-    public void setNodeName(String nodeName) {
-        this.nodeName = nodeName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getInnerText() {
@@ -47,6 +47,6 @@ public class Node {
 
     @Override
     public String toString() {
-        return String.format("Name: %s\nInnerText: %s\nxPos: %s\nyPos: %s\n", nodeName, innerText, xPos, yPos);
+        return String.format("%s, %s, %s, %s", name, innerText, xPos, yPos);
     }
 }

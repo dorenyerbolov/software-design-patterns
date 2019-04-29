@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nodes>
+    <TextField value="Some text to edit" X="20" Y="50"/>
+    <TextField value="Some text to edit" X="80" Y="80"/>
+    <Button value="Click on me" X="150" Y="64"/>
+</nodes>
+
