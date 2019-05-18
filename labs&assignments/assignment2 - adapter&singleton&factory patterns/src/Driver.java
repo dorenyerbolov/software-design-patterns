@@ -6,7 +6,6 @@ import Enums.DesignType;
 import WM.WindowManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
